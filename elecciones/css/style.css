@@ -1,24 +1,19 @@
 
 body {
-    
-    overflow-x: hidden;
-    font-family: Lobster;
-    margin: 0;
-    padding: 0;
-    color: black;
+  overflow-x: hidden;
+  font-family: arial;
+  margin: 0;
+  padding: 0;
 }
-h1{
-    text-shadow: 4px 4px 4px #aaa;
-}
-#voto{
-    text-shadow: 4px 4px 4px #aaa;
-}
+
+
 .footer{
-   
-    margin-top: 230px;
-    color: antiquewhite;
-    background: rgb(189, 18, 18);
+  height: 59px;
+  margin-top: 501px;
+  color: white;
+  background-color: black;
 }
+
 
 header {
     width: 100%;
@@ -89,11 +84,13 @@ header nav a:hover {
     width: 30%;
   } 
   .btn{
-    background-image: linear-gradient(to right, #569ff2 0%, #ed2fb4 51%, #f25656 100%)}
+  background: blue;
+  color: white; 
+  }
   
-  .btn-grad {background-image: linear-gradient(to right, #569ff2 0%, #ed2fb4 51%, #f25656 100%)}
+  .btn-grad {background: blue;
+    color: white; }
    
-.btn-grad:hover { background-position: right center; };
 /* Style all font awesome icons */
 .fa {
     padding: 500px;
@@ -102,28 +99,4 @@ header nav a:hover {
     text-align: center;
     text-decoration: none;
     border-radius: 70%;
-  }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  .fa-youtube {
-    background: #f10e0e;
-    color: white;
-  }
-  
-  /* Twitter */
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  .fa-instagram {
-    background: #da35da;
-    color: rgb(245, 241, 244);
-  }
-  .fa-github {
-    background: #121312;
-    color: rgb(246, 248, 246);
   }

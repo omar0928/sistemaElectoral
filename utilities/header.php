@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/stylePublico.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <!--Menu de navegacion-->
@@ -27,7 +27,7 @@ session_start();
     <div class="wrapper">
         <div class="logobox">
             <br>
-            <h1 class="text-center">Bienvenido a su Sistema electoral</h1>
+            <h1 class="text-center bold"><b>Sistema electoral de</b> <label style="color: red;" >R</label><label style="color: blue;">D</label></h1>
         </div>
         <nav class="menu">
             <div class="float-right">

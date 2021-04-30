@@ -1,0 +1,137 @@
+
+
+body {
+  overflow-x: hidden;
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  overflow: hidden;
+  background: rgb(204 194 30);
+  margin-bottom: 30px;
+}
+
+.bold{
+  color:rgb(255, 255, 255);
+  font-size:30px;
+}
+
+header nav a {
+  display: inline-block;
+  color: #08270f;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  background: rgb(255 255 255);
+  color:rgb(117 134 14);
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.info-container{
+  width: 50%;
+  height: auto;
+  transform: translate(50% , 10%);
+  border-radius: 10px;
+  box-shadow: 2px 4px 6px grey;
+  border: 1px solid #ccc;
+}
+
+.footer{
+  height: 59px;
+  margin-top: 501px;
+  color: white;
+  background-color: black;
+}
+
+
+.wrapper {
+  width: 100%;
+/*     max-width: 1000px; */
+  overflow: hidden;
+}
+
+.btn{
+  background: blue;
+  color: white; 
+  }
+
+
+
+
+/* no se que son*/
+.partidos{
+  color: #c71472;
+}
+
+
+#registro {
+  margin-top: 50px;
+  margin-bottom: 120px;
+  margin-left: 550px;
+  margin-right: 550px;
+  padding: 20px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  box-shadow: 5px 10px #b7c3ca;
+}
+
+.inicio-session{
+
+  margin: 0 auto;
+  width: 550px;
+  height: 500px;
+  margin-top: 100px;
+  
+}
+
+.login {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+} 
+.btn-grad {background-image: linear-gradient(to right, #56CCF2 0%, #2F80ED 51%, #56CCF2 100%)}
+
+.btn-grad:hover { background-position: right center; };
+/* Style all font awesome icons */
+.fa {
+  padding: 500px;
+  font-size: 500px;
+  width: 500px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 70%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-youtube {
+  background: #f10e0e;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #da35da;
+  color: rgb(245, 241, 244);
+}
+.fa-github {
+  background: #121312;
+  color: rgb(246, 248, 246);
+}

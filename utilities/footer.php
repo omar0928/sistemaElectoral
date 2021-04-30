@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/stylePublico.css">
 <!-- Footer -->
 <footer class="page-footer footer" >
 

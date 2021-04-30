@@ -6,7 +6,7 @@
    
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/stylePublico.css">
 
     <title>Document</title>
 </head>
