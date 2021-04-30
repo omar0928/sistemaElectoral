@@ -15,7 +15,9 @@
   <!--Menu de navegacion-->
   <?php
   include '../Sistemaelectoral/utilities/header.php';
- 
+  require_once 'PhpMailer/PHPMailer.php';
+  require_once 'PhpMailer/Exception.php';
+  require_once 'PhpMailer/SMTP.php';
     $nombrePresidente= isset($_SESSION['eleccion']['presidente']);
     $nombreregidor= isset($_SESSION['eleccion']['regidor']);
     $nombreDiputado= isset($_SESSION['eleccion']['diputado']);
@@ -53,7 +55,7 @@
       header("location:index.php");
     }
    
-
+//Mailerphpitla01
 
   ?>
   <form action="enviarEmail.php" method="post">

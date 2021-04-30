@@ -23,6 +23,18 @@
     $listPuesto = $servicePuesto->GetList();
     ?>
 
+<script type="text/javascript">
+
+function confirmDelete(){
+   var respuesta = confirm("¿Estas seguro de eliminar lo seleccionado?");
+   if(respuesta == true){
+     return true;
+   } else{
+     return false;
+   }
+}
+
+</script>
   <div class="estilo">
     <form action="../Logic/proccesEliminar.php?id =<?php echo isset($_POST['id']);?>&&que=<?php echo $_GET['id'];?>" method="post">
     <label for="">Que desea eliminar?</label>
@@ -34,7 +46,7 @@
           class="form-control"  id="" aria-describedby="helpId" placeholder="" name="id">
             </div>
             <div class="col">
-                <button type="submit" name="" id="" class="btn btn-danger">Eliminar</button>
+                <button type="submit" name="" id="" onclick="return confirmDelete()" class="btn btn-danger">Eliminar</button>
             </div>
         </div>
     </form>
